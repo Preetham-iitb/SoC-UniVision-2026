@@ -1,0 +1,52 @@
+.app-container {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #1e293b;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+h1 { margin: 0; font-size: 1.8rem; color: #0f172a; }
+
+.navigation-bar { display: flex; gap: 12px; }
+
+.nav-button {
+  background-color: #0f172a;
+  border: 1px solid #cbd5e1;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-button:hover {
+  background-color: #cbd5e1;
+  color: #1e293b;
+}
+
+.nav-button.active {
+  background-color: #e2e8f0;
+  color: #0f172a;
+  border-color: #0f172a;
+  border: 1px solid #ffffff
+}
+
+.content-area {
+  padding: 20px 0px 0px 0px;
+  background: #333333;
+  min-height: 250px;
+  border-radius: 10px;
+}
+.stages-grid { display: flex; flex-wrap: wrap; gap: 10px; }

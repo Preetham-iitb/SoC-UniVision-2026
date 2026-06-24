@@ -1,0 +1,31 @@
+.pipeline-card {
+  border: 2px solid #fcfcfc;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 12px;
+  min-width: 200px;
+  background-color: #333333;
+}
+
+.card-title { margin-top: 0; font-size: 1.25rem; color: #fcfcfc; }
+.card-status { font-size: 0.95rem; color: #555555; }
+.status-badge { font-weight: bold; text-transform: uppercase; }
+.status-waiting { color: #888888; }
+.status-running {
+  color: #d97706;
+}
+
+.run-button {
+  background-color: #d97706;
+  color: #ffffff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.run-button:hover {
+  background-color: #333333;
+  border: 1px solid #d97706;
+}
