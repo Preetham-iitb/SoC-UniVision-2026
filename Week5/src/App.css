@@ -1,0 +1,57 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #1a202c;
+}
+
+.app-header {
+  background: #1e1e24;
+  padding: 16px 24px;
+  border-bottom: 1px solid #2d3748;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-icon {
+  font-size: 1.5rem;
+}
+
+.brand-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.brand-version {
+  color: #6366f1;
+  font-size: 0.9rem;
+}
+
+.badge-info {
+  font-size: 0.85rem;
+  background: #2d3748;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #a0aec0;
+  font-weight: 500;
+}
+
+.app-main-workspace {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  position: relative;
+}

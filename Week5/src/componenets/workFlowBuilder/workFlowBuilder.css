@@ -1,0 +1,73 @@
+.workflow-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.validation-bar {
+  padding: 15px 20px;
+  background: #2a2b36;
+  border-bottom: 2px solid #3e3f4b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.validation-status {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.validate-btn {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.validate-btn:hover {
+  background-color: #4f46e5;
+}
+
+.canvas-container {
+  width: 100%;
+  height: calc(100% - 50px);
+  position: relative;
+}
+
+/* Override React Flow Internal Styles nicely */
+.react-flow__node {
+  background: #2d3748 !important;
+  color: #fff !important;
+  border: 2px solid #4a5568 !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  font-weight: 500 !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3) !important;
+  text-align: center;
+  width: 150px;
+}
+
+.react-flow__node.selected {
+  border-color: #6366f1 !important;
+  box-shadow: 0 0 0 2px #6366f1 !important;
+}
+
+.react-flow__edge-path {
+  stroke: #a0aec0 !important;
+  stroke-width: 3 !important;
+}
+
+.react-flow__background {
+  background-color: #1a202c !important;
+}
